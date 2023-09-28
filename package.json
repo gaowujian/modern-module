@@ -29,12 +29,16 @@
     "node_modules/",
     "dist/"
   ],
-  "dependencies": {},
-  "peerDependencies": {},
+  "dependencies": {
+    "@modern-js/plugin-tailwindcss": "2.35.1"
+  },
+  "peerDependencies": {
+    "tailwindcss": "~3.3.3"
+  },
   "devDependencies": {
     "@modern-js/module-tools": "2.35.1",
     "@modern-js/eslint-config": "2.35.1",
-    "@modern-js/tsconfig":"2.35.1",
+    "@modern-js/tsconfig": "2.35.1",
     "@modern-js-app/eslint-config": "2.35.1",
     "typescript": "~5.0.4",
     "@types/jest": "~29.2.4",
@@ -43,7 +47,11 @@
     "rimraf": "~3.0.2",
     "lint-staged": "~13.1.0",
     "prettier": "~2.8.1",
-    "husky": "~8.0.1"
+    "husky": "~8.0.1",
+    "@modern-js/plugin-storybook": "2.35.1",
+    "react-dom": "^17",
+    "react": "^17",
+    "tailwindcss": "~3.3.3"
   },
   "sideEffects": [],
   "publishConfig": {
